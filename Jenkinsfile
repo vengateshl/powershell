@@ -13,7 +13,7 @@ pipeline {
 
         stage('LOGGING THROUGH SERVICE PRINCIPLE') {
             steps {
-                    powershell''' 
+                    bat''' 
                             ############################### Powershell #############################
                             
                             
