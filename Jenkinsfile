@@ -4,7 +4,7 @@ pipeline {
     
     environment {
         AZURE_CLIENT_ID = credentials('azureclientid')
-        AZURE_CLIENT_SECRET = credentials('azurenewsecret')
+        AZURE_CLIENT_SECRET = credentials('azuresecret')
         AZURE_TENANT_ID = credentials('tenetid')
         APP_URL = credentials('appurl')
     }
