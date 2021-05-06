@@ -27,4 +27,4 @@ pipeline {
             bat 'az group create -l westus -n fromjenkins'
             
     }
-}
+    }}
