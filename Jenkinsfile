@@ -27,6 +27,6 @@ pipeline {
     }
         stage('calling ps1 file'){
             steps{
-                powershell 'hello.ps1'
+                powershell 'C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\azuretest\hello.ps1'
             }}
     }}
