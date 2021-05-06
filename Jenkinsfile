@@ -25,4 +25,8 @@ pipeline {
             powershell'az group create -l westus -n fromjenkins1'
             }
     }
+        stage('calling ps1 file'){
+            steps{
+                ./hello.ps1
+            }}
     }}
