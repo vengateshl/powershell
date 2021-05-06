@@ -23,7 +23,7 @@ pipeline {
         }
         stage('creating rg group'){
             steps{
-            powershell'az group create -l westus -n fromjenkins'
+            powershell'az group create -l westus -n fromjenkins1'
             }
     }
     }}
