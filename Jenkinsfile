@@ -16,7 +16,7 @@ pipeline {
                     
                          
                        bat '''  az login --service-principal -u $Env:APP_URL -p $Env:AZURE_CLIENT_SECRET --tenant $Env:AZURE_TENANT_ID
-                            az group create -l westus -n fromjenkins'''     
+                           '''     
                             
                           
                 
