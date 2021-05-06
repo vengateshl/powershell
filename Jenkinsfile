@@ -27,6 +27,6 @@ pipeline {
     }
         stage('calling ps1 file'){
             steps{
-                powershell '.hello.ps1'
+                powershell '${Workspace}/hello.ps1'
             }}
     }}
